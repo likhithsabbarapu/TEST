@@ -1,3 +1,19 @@
+/*Simple: Palindrome Number
+
+Concept: Integer Manipulation (No Strings allowed!)
+The Challenge: Determine if an integer is a palindrome (reads the same backward as forward).
+
+    Example: 121 is true. -121 is false (reads as 121-).
+
+The Logic:
+Instead of converting to a String, we "flip" the number mathematically.
+
+    Take the last digit: number % 10.
+
+    Build the reverse: (reverse * 10) + lastDigit.
+
+    Chop off the last digit: number / 10. */
+
 import java.sql.SQLOutput;
 
 public class Palindrome {
