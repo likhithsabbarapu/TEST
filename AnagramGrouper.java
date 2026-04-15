@@ -57,7 +57,7 @@ public class AnagramGrouper {
 
 
 //Categorization: This is the foundation of data organization. Instead of comparing every word to every other word (O(N2)), we use a "Signature" (the sorted key) to group them in O(N) passes through the array.
-//
+
 //The Power of Hashing: By using a HashMap, we get near-instant lookup time. It shows how choosing the right "Key" can simplify a complex problem.
-//
+
 //Space vs. Time: We use extra space (the Map) to gain massive speed. Sorting each string takes KlogK time (where K is the length of the longest word), making the total complexity O(N⋅KlogK).
