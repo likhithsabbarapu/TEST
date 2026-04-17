@@ -22,7 +22,6 @@
 //
 //    Return: The result is just all the values (the lists) inside our map.
 import java.util.*;
-
 public class AnagramGrouper {
     public static void main(String[] args) {
         String[] words = {"eat", "tea", "tan", "ate", "nat", "bat"};
