@@ -47,7 +47,6 @@ public class SequenceBoss {
         }
 
         int longestStreak = 0;
-
         // 2. Iterate through the original array
         for (int num : numSet) {
             // 3. Logic: Check if 'num' is the START of a sequence
