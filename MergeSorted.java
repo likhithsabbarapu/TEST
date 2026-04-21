@@ -55,7 +55,6 @@ public class MergeSorted {
             }
             k--;
         }
-
         // If nums2 still has items (nums1 finished first)
         // We don't need to check nums1 leftovers because they are already in place
         while (j >= 0) {
