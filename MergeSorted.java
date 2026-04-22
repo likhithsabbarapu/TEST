@@ -3,7 +3,6 @@
 //Problem: You are given two integer arrays, nums1 and nums2, each sorted in non-decreasing order. You are also given a pointer to the "actual" numbers in nums1 (since it has extra empty space at the end). Your goal is to merge nums2 into nums1 so that the final result is one single sorted array.
 //
 //    Input: nums1 = [1, 2, 3, 0, 0, 0], nums2 = [2, 5, 6]
-//
 //    Goal: nums1 becomes [1, 2, 2, 3, 5, 6]
 //
 //    Constraint: You must do this in-place (don't create a third array).
