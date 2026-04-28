@@ -29,7 +29,6 @@ public class TreeLogic {
         if (root == null) {
             return 0;
         }
-
         // RECURSIVE STEP: Go deep into left and right branches
         int left = maxDepth(root.left);
         int right = maxDepth(root.right);
