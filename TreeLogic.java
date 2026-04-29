@@ -1,6 +1,5 @@
 // We assume TreeNode is already defined elsewhere in your project
 // class TreeNode { int val; TreeNode left; TreeNode right; ... }
-
 public class TreeLogic {
     public static void main(String[] args) {
         // Constructing the tree:
@@ -32,7 +31,6 @@ public class TreeLogic {
         // RECURSIVE STEP: Go deep into left and right branches
         int left = maxDepth(root.left);
         int right = maxDepth(root.right);
-
         // COMBINE: Take the deeper path and add 1 for the current node
         return Math.max(left, right) + 1;
     }
