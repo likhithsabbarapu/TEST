@@ -13,12 +13,10 @@ public class TreeLogic {
         root.right = new TreeNode(20);
         root.right.left = new TreeNode(15);
         root.right.right = new TreeNode(7);
-
         // Call our new DFS Logic
         int depth = maxDepth(root);
         System.out.println("The maximum depth of the tree is: " + depth);
     }
-
     /**
      * Logic: Depth-First Search (DFS)
      * Concept: Post-Order Traversal
