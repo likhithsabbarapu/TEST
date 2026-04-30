@@ -91,7 +91,6 @@ public class TreeLevelOrder {
         return result;
     }
 }
-
 //FIFO (First-In, First-Out): This is the opposite of a Stack. By using a Queue, we ensure that we finish everyone on the "current floor" before we move to the "basement."
 //
 //Snapshot Logic: The line int levelSize = queue.size(); is the "secret sauce." It takes a snapshot of how many nodes belong to the current level so that even as we add children (the next level) to the queue, we don't accidentally process them too early.
